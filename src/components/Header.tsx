@@ -6,11 +6,11 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Models", href: "#" },
-    { label: "Chat", href: "#" },
-    { label: "Rankings", href: "#" },
-    { label: "Docs", href: "#" },
-    { label: "Pricing", href: "#" },
+    { label: "Models", href: "/models" },
+    { label: "Chat", href: "/chat" },
+    { label: "Rankings", href: "/rankings" },
+    { label: "Docs", href: "/docs" },
+    { label: "Pricing", href: "/pricing" },
   ];
 
   return (
