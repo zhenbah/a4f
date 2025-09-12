@@ -47,6 +47,24 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // A4F Brand Colors
+        brand: {
+          purple: "hsl(var(--brand-purple))",
+          "purple-light": "hsl(var(--brand-purple-light))",
+          "purple-dark": "hsl(var(--brand-purple-dark))",
+        },
+        surface: {
+          DEFAULT: "hsl(var(--surface))",
+          elevated: "hsl(var(--surface-elevated))",
+          highlight: "hsl(var(--surface-highlight))",
+        },
+        text: {
+          primary: "hsl(var(--text-primary))",
+          secondary: "hsl(var(--text-secondary))",
+          accent: "hsl(var(--text-accent))",
+        },
+        "border-light": "hsl(var(--border-light))",
+        "border-subtle": "hsl(var(--border-subtle))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +80,19 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        'sm': 'var(--shadow-sm)',
+        'md': 'var(--shadow-md)',
+        'lg': 'var(--shadow-lg)',
+        'purple': 'var(--shadow-purple)',
+      },
+      backgroundImage: {
+        'brand-gradient': 'var(--brand-gradient)',
+        'brand-gradient-subtle': 'var(--brand-gradient-subtle)',
       },
       keyframes: {
         "accordion-down": {
